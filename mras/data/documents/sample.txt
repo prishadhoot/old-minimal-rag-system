@@ -1,0 +1,29 @@
+Introduction to RAG Systems
+
+Retrieval-Augmented Generation (RAG) is a powerful technique that combines information retrieval with large language models. The key advantage of RAG is that it allows language models to access external knowledge without retraining.
+
+How RAG Works
+
+RAG systems work in three main phases:
+
+1. Indexing Phase: Documents are split into chunks, embedded using a neural network, and stored in a vector database.
+
+2. Retrieval Phase: When a query comes in, it is embedded using the same model, and similar chunks are retrieved from the vector database using semantic search.
+
+3. Generation Phase: The retrieved chunks are provided as context to a language model, which generates a response based on the given context.
+
+Vector Embeddings
+
+Vector embeddings are numerical representations of text that capture semantic meaning. Similar texts have similar embeddings, allowing for semantic search. The all-MiniLM-L6-v2 model produces 384-dimensional embeddings.
+
+FAISS
+
+FAISS (Facebook AI Similarity Search) is a library for efficient similarity search. It provides fast nearest neighbor search in high-dimensional spaces, making it ideal for RAG systems.
+
+Benefits of RAG
+
+- Access to up-to-date information
+- Reduced hallucination
+- Source attribution
+- No retraining required
+- Efficient use of context

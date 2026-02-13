@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is the main purpose of this system?",
+        "expected_keywords": ["retrieval", "generation", "RAG", "semantic", "search"]
+    },
+    {
+        "question": "How does the chunking strategy work?",
+        "expected_keywords": ["500", "words", "overlap", "100"]
+    },
+    {
+        "question": "What embedding model is used?",
+        "expected_keywords": ["MiniLM", "384", "dimensions"]
+    }
+]

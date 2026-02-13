@@ -1,0 +1,26 @@
+# Core API Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+
+# Embeddings
+sentence-transformers>=2.7.0
+torch>=2.6.0
+
+# Vector Database
+faiss-cpu>=1.9.0
+
+# LLM - OpenRouter provider (Gemma model), see Testing for httpx
+
+# Document Processing (PDF) - pypdf preferred; PyPDF2 as fallback for compatibility
+pypdf>=4.0.0
+PyPDF2>=3.0.0
+
+# Testing + LLM (httpx used for OpenRouter API calls)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx>=0.25.0
+
+# Utilities
+numpy==1.24.3
+python-dotenv>=1.0.0
