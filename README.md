@@ -225,4 +225,7 @@ Then call the `/evaluate` endpoint to get metrics:
 
 ## Author
 Prisha Dhoot
-Built as a proof-of-concept for understanding RAG systems from first principles.
+
+(Built as a proof-of-concept for understanding RAG systems from first principles.)
+
+! This README has been AI-generated
